@@ -1,0 +1,300 @@
+{
+    "__main__": {
+        "bacon": 0,
+        "imports": [
+            "pelican",
+            "pelican.__main__",
+            "pelican.cache",
+            "pelican.contents",
+            "pelican.generators",
+            "pelican.log",
+            "pelican.paginator",
+            "pelican.readers",
+            "pelican.rstdirectives",
+            "pelican.server",
+            "pelican.settings",
+            "pelican.signals",
+            "pelican.tools",
+            "pelican.tools.pelican_import",
+            "pelican.tools.pelican_quickstart",
+            "pelican.tools.pelican_themes",
+            "pelican.urlwrappers",
+            "pelican.utils",
+            "pelican.writers"
+        ],
+        "name": "__main__",
+        "path": null
+    },
+    "pelican": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pelican",
+            "pelican.__main__",
+            "pelican.cache",
+            "pelican.contents",
+            "pelican.generators",
+            "pelican.readers",
+            "pelican.rstdirectives",
+            "pelican.server",
+            "pelican.settings",
+            "pelican.tools.pelican_import",
+            "pelican.tools.pelican_quickstart",
+            "pelican.tools.pelican_themes",
+            "pelican.urlwrappers",
+            "pelican.utils",
+            "pelican.writers"
+        ],
+        "imports": [
+            "pelican",
+            "pelican.generators",
+            "pelican.log",
+            "pelican.server",
+            "pelican.settings",
+            "pelican.utils",
+            "pelican.writers"
+        ],
+        "name": "pelican",
+        "path": "/home/ruchitjagodara/Education/STT/lab_9/pelican/pelican/__init__.py"
+    },
+    "pelican.__main__": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pelican"
+        ],
+        "name": "pelican.__main__",
+        "path": "/home/ruchitjagodara/Education/STT/lab_9/pelican/pelican/__main__.py"
+    },
+    "pelican.cache": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pelican.generators",
+            "pelican.readers"
+        ],
+        "imports": [
+            "pelican",
+            "pelican.utils"
+        ],
+        "name": "pelican.cache",
+        "path": "/home/ruchitjagodara/Education/STT/lab_9/pelican/pelican/cache.py"
+    },
+    "pelican.contents": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pelican.generators",
+            "pelican.readers",
+            "pelican.utils"
+        ],
+        "imports": [
+            "pelican",
+            "pelican.settings",
+            "pelican.urlwrappers",
+            "pelican.utils"
+        ],
+        "name": "pelican.contents",
+        "path": "/home/ruchitjagodara/Education/STT/lab_9/pelican/pelican/contents.py"
+    },
+    "pelican.generators": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pelican"
+        ],
+        "imports": [
+            "pelican",
+            "pelican.cache",
+            "pelican.contents",
+            "pelican.readers",
+            "pelican.utils"
+        ],
+        "name": "pelican.generators",
+        "path": "/home/ruchitjagodara/Education/STT/lab_9/pelican/pelican/generators.py"
+    },
+    "pelican.log": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pelican",
+            "pelican.server",
+            "pelican.settings",
+            "pelican.tools.pelican_import"
+        ],
+        "name": "pelican.log",
+        "path": "/home/ruchitjagodara/Education/STT/lab_9/pelican/pelican/log.py"
+    },
+    "pelican.paginator": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pelican.settings",
+            "pelican.writers"
+        ],
+        "name": "pelican.paginator",
+        "path": "/home/ruchitjagodara/Education/STT/lab_9/pelican/pelican/paginator.py"
+    },
+    "pelican.readers": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pelican.generators"
+        ],
+        "imports": [
+            "pelican",
+            "pelican.cache",
+            "pelican.contents",
+            "pelican.rstdirectives",
+            "pelican.utils"
+        ],
+        "name": "pelican.readers",
+        "path": "/home/ruchitjagodara/Education/STT/lab_9/pelican/pelican/readers.py"
+    },
+    "pelican.rstdirectives": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pelican.readers"
+        ],
+        "imports": [
+            "pelican",
+            "pelican.settings"
+        ],
+        "name": "pelican.rstdirectives",
+        "path": "/home/ruchitjagodara/Education/STT/lab_9/pelican/pelican/rstdirectives.py"
+    },
+    "pelican.server": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pelican"
+        ],
+        "imports": [
+            "pelican",
+            "pelican.log"
+        ],
+        "name": "pelican.server",
+        "path": "/home/ruchitjagodara/Education/STT/lab_9/pelican/pelican/server.py"
+    },
+    "pelican.settings": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pelican",
+            "pelican.contents",
+            "pelican.rstdirectives",
+            "pelican.tools.pelican_import",
+            "pelican.utils"
+        ],
+        "imports": [
+            "pelican",
+            "pelican.log",
+            "pelican.paginator"
+        ],
+        "name": "pelican.settings",
+        "path": "/home/ruchitjagodara/Education/STT/lab_9/pelican/pelican/settings.py"
+    },
+    "pelican.signals": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "pelican.signals",
+        "path": "/home/ruchitjagodara/Education/STT/lab_9/pelican/pelican/signals.py"
+    },
+    "pelican.tools": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "name": "pelican.tools",
+        "path": "/home/ruchitjagodara/Education/STT/lab_9/pelican/pelican/tools/__init__.py"
+    },
+    "pelican.tools.pelican_import": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pelican",
+            "pelican.log",
+            "pelican.settings",
+            "pelican.utils"
+        ],
+        "name": "pelican.tools.pelican_import",
+        "path": "/home/ruchitjagodara/Education/STT/lab_9/pelican/pelican/tools/pelican_import.py"
+    },
+    "pelican.tools.pelican_quickstart": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pelican"
+        ],
+        "name": "pelican.tools.pelican_quickstart",
+        "path": "/home/ruchitjagodara/Education/STT/lab_9/pelican/pelican/tools/pelican_quickstart.py"
+    },
+    "pelican.tools.pelican_themes": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__"
+        ],
+        "imports": [
+            "pelican"
+        ],
+        "name": "pelican.tools.pelican_themes",
+        "path": "/home/ruchitjagodara/Education/STT/lab_9/pelican/pelican/tools/pelican_themes.py"
+    },
+    "pelican.urlwrappers": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pelican.contents"
+        ],
+        "imports": [
+            "pelican",
+            "pelican.utils"
+        ],
+        "name": "pelican.urlwrappers",
+        "path": "/home/ruchitjagodara/Education/STT/lab_9/pelican/pelican/urlwrappers.py"
+    },
+    "pelican.utils": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pelican",
+            "pelican.cache",
+            "pelican.contents",
+            "pelican.generators",
+            "pelican.readers",
+            "pelican.tools.pelican_import",
+            "pelican.urlwrappers",
+            "pelican.writers"
+        ],
+        "imports": [
+            "pelican",
+            "pelican.contents",
+            "pelican.settings"
+        ],
+        "name": "pelican.utils",
+        "path": "/home/ruchitjagodara/Education/STT/lab_9/pelican/pelican/utils.py"
+    },
+    "pelican.writers": {
+        "bacon": 1,
+        "imported_by": [
+            "__main__",
+            "pelican"
+        ],
+        "imports": [
+            "pelican",
+            "pelican.paginator",
+            "pelican.utils"
+        ],
+        "name": "pelican.writers",
+        "path": "/home/ruchitjagodara/Education/STT/lab_9/pelican/pelican/writers.py"
+    }
+}
